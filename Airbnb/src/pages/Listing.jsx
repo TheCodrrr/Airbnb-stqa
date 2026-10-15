@@ -39,7 +39,7 @@ const ListingPage = () => {
       <div
         ref={setSentinelEl}
         aria-hidden="true"
-        style={{ height: 1, marginBottom: -1, width: 1 }}
+        style={{ height: 1, marginBottom: -1 }}
       />
 
       {/* ── Sticky Sub-Nav (replaces Navbar on scroll) ── */}
